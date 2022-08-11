@@ -47,3 +47,6 @@ If you need to connect to the running containers, use `docker-compose ps` to vie
 
 For example, to connect to the Airflow service, you can execute `docker exec -it [dockercontainerid] bash`. This will attach your terminal to the selected container and activate a bash terminal.
 In this case, you can connect to the postgres container and run 'psql -U airflow'; After that, you can run both 'select * from dataset1' and 'select * from dataset2'
+
+
+![airflow_lineage](https://user-images.githubusercontent.com/25934101/184164570-7bddb413-a3c5-4e49-96dd-9ca1bb9b60ff.PNG)
