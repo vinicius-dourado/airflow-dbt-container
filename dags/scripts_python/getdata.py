@@ -13,7 +13,7 @@ from airflow.hooks.base import BaseHook
 # set past 5 days
 days=[]
 i = 1
-while i < 2:
+while i < 5:
   fivedaysago =  time.mktime((datetime.today() - timedelta(days=1)).timetuple())  
   days.append(fivedaysago)
   i += 1
