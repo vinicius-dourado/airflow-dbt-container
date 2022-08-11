@@ -41,7 +41,6 @@ If everything goes well, you should have the dataset1 and dataset2 models execut
 * Enable the services: `docker-compose up` or `docker-compose up -d` (detatches the terminal from the services' log)
 * Disable the services: `docker-compose down` Non-destructive operation.
 * Delete the services: `docker-compose rm` Ddeletes all associated data. The database will be empty on next run.
-* Re-build the services: `docker-compose build` Re-builds the containers based on the docker-compose.yml definition. Since only the Airflow service is based on local files, this is the only image that is re-build (useful if you apply changes on the `./scripts_airflow/init.sh` file. 
 
 If you need to connect to the running containers, use `docker-compose ps` to view the running services.
 
